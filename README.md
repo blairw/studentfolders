@@ -1,5 +1,7 @@
 # studentfolders
 
+I put this in a file called `generateFolders.sh`:
+
 ```zsh
 for d in */ ; do
     cd "$d"
@@ -14,3 +16,5 @@ for d in */ ; do
     cd ..
 done
 ```
+
+Then I ran at the terminal, `sh generateFolders.sh`.
